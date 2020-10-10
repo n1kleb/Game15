@@ -19,4 +19,4 @@ build/checkWin.o: src/checkWin.c
 	gcc -Wall -Werror -c src/checkWin.c -o build/checkWin.o
 
 clean:
-	rm -rf build/*.o bin/Game15 bin/*.o
+	rm -rf build/*.o bin/Game15
