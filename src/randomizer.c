@@ -12,7 +12,7 @@ void randomizer(int board[SIZE_BOARD][SIZE_BOARD])
 
             while (j < SIZE_BOARD) {
                 while ((tmp1 = rand() % SIZE_BOARD)
-                        == (tmp2 = rand() % SIZE_BOARD))
+                       == (tmp2 = rand() % SIZE_BOARD))
                     ;
 
                 if (t) {
