@@ -1,6 +1,6 @@
 #include "function.h"
 
-void randomizer(int board[SIZE_BOARD][SIZE_BOARD]) 
+void randomizer(int board[SIZE_BOARD][SIZE_BOARD])
 {
     int i = 0, j = 0, k, tmp1, tmp2;
     int tmp;
