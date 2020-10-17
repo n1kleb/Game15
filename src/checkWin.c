@@ -1,6 +1,6 @@
 #include "function.h"
 
-bool winChecking(int board[SIZE_BOARD][SIZE_BOARD])
+bool checkWin(int board[SIZE_BOARD][SIZE_BOARD])
 {
     int sc = 1;
     for (int i = 0; i < SIZE_BOARD; i++)

@@ -56,7 +56,7 @@ void game(int board[SIZE_BOARD][SIZE_BOARD])
                 index_r++;
             }
         }
-        if (winChecking(board)) {
+        if (checkWin(board)) {
             printf("\nYOU WIN!\n");
             break;
         }
