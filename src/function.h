@@ -11,6 +11,6 @@
 void randomizer(int board[SIZE_BOARD][SIZE_BOARD]);
 void printBoard(int board[SIZE_BOARD][SIZE_BOARD]);
 void game(int board[SIZE_BOARD][SIZE_BOARD]);
-bool winChecking(int board[SIZE_BOARD][SIZE_BOARD]);
+bool checkWin(int board[SIZE_BOARD][SIZE_BOARD]);
 
 #endif
